@@ -1,0 +1,517 @@
+@import url(//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    
+}
+
+.container .introduction {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container .introduction .name h1{
+    font-family: "The Historia Demo";
+    text-transform: uppercase;
+    font-size: 9rem;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(212,45,253,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.container .introduction .about-the-me p{
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+
+
+
+.hamburger-bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+ .hamburger-bars .bar {
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+/* About Section */
+.about {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Social Media Styling */
+.about .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about .socials i {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.about .socials .fa-linkedin {
+    color: #2867B2;
+}
+.about .socials .fa-twitter-square {
+    color: #00acee;
+}
+.about .socials .fa-facebook-square {
+    color: #3b5998;
+}
+.about .socials .fa-instagram-square {
+    color: #c13584;
+}
+
+.about .about-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.about .about-container .left-img img {
+    width: 300px;
+    object-fit: cover;
+}
+.about .about-container .left-img {
+    padding-right: 70px;
+    
+}
+
+.about .about-container .about-text .about-heading {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    line-height: 0;
+    text-align: center;
+}
+
+.about .about-container .about-text .about-heading h2 {
+    font-size: 4rem;
+    opacity: .3;
+}
+
+.about .about-container .about-text .about-heading h6 {
+    font-size: 2rem;
+    opacity: .8;
+}
+
+.about .about-container .about-text .about-me-text > p  {
+    font-family: sans-serif;
+    text-align:  justify;
+    
+}
+
+.services {
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+}
+
+.services .services-container  {
+    padding: 60px;
+    
+    
+    
+}
+.services .services-container .services-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.services .services-container .services-heading .services-main-heading h2{
+    font-size: 3rem;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.services .services-container .services-heading .services-sub-heading h6{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-container .card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 20px;
+    border: 5px solid #c13584;
+    margin: 20px;
+}
+.card-container .card .card-icon {
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgba(212,45,253,1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.card-container .card .card-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: yellow
+}
+.card-container .card .card-text-area .skill-heading {
+    font-family:sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    opacity: 0.4;
+}
+.card-container .card .card-text-area > p {
+    font-family:sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px
+    
+}
+
+.services .banner-quote {
+    width: 100%;
+    height: 30vh;
+    background-image: url("../images/banner-quote\ blurred.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .banner-quote .saying h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.portfolio-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.portfolio-section .portfolio-container {
+    padding: 50px;
+}
+
+.portfolio-section .portfolio-container .portfolio-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.portfolio-section .portfolio-container .portfolio-heading .portfolio-main-heading h2{
+    font-size: 3rem;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.portfolio-section .portfolio-container .portfolio-heading .portfolio-sub-heading h6{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.portfolio-section .portfolio-details-container .container-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+
+}
+ 
+
+.portfolio-section .portfolio-details-container .container-1 .description  {
+    width: 600px;
+    height: fit-content;
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+}
+.portfolio-section .portfolio-details-container .container-1 .img-screenshot {
+    background-image: url("../images/portfolio-item-1.PNG");
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio-section .portfolio-details-container .container-2 {
+    width: 80%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+
+.portfolio-section .portfolio-details-container .container-2 .description  {
+    width: 600px;
+    height: fit-content;
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+}
+.portfolio-section .portfolio-details-container .container-2 .img-screenshot {
+    background-image: url("../images/portfolio-item-2.PNG");
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .container .introduction .name h1{
+        font-family: "The Historia Demo";
+        font-size: 2.7rem;
+        padding: 10px;
+    }
+    
+    .container .introduction .about-the-me p{
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        margin-top: 50px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about .about-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about .about-container .left-img img {
+        width: 150px;
+        object-fit: cover;
+    }
+    .about .about-container .left-img  {
+        padding: 60px;
+        object-fit: cover;
+    }
+
+    .about .about-container .about-text {
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+
+    .about .about-container .about-text .about-heading h2  {
+        font-size: 4rem;
+        opacity: 0.3;
+    
+    }
+    
+    .about .about-container .about-text .about-heading h6  {
+        font-size: 2rem;
+        opacity: 0.8;
+        font-weight: 200;
+    
+    }
+
+    
+
+    .card-container {
+        
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .card-container .card {
+        width: fit-content;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        padding: 20px;
+        border: 5px solid #c13584;
+        margin: 20px;
+    }
+
+    .card-container .card .card-icon {
+        width: fit-content;
+        height: fit-content;
+        border: 2px solid rgba(212,45,253,1);
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .card-container .card .card-icon i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: yellow
+    }
+    .card-container .card .card-text-area .skill-heading {
+        font-family:sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+        opacity: 0.4;
+    }
+    .card-container .card .card-text-area > p {
+        font-family:sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 10px
+        
+    }
+
+    .services .banner-quote .saying h2 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    
+.portfolio-section .portfolio-details-container .container-1 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+
+}
+.portfolio-section .portfolio-details-container .container-2 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+
+}
+.portfolio-section .portfolio-details-container .container-1 .description  {
+    width: 100%;
+    height: fit-content;
+    margin: 30px;
+    
+}
+.portfolio-section .portfolio-details-container .container-2 .description  {
+    width: 100%;
+    height: fit-content;
+    margin: 30px;
+    
+}
+
+.portfolio-section .portfolio-details-container .container-1 .img-screenshot {
+
+    width: 290px;
+    height: 300px;
+
+}
+.portfolio-section .portfolio-details-container .container-2 .img-screenshot {
+  
+    width: 290px;
+    height: 300px;
+ 
+}
+
+
+}
+
+
+@media (max-width: 360px) {
+
+    .about .about-container .left-img  {
+       display: none;
+    }
+}
